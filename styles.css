@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: #01601d;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background: #01601d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    header nav ul {
+      flex-direction: column;
+    }
+  }
+  
